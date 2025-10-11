@@ -19,6 +19,6 @@ This is how I solved the problem:
 I picked the RSX high force rod-style actuator (max force of 294 kN). I placed two of the pins mounted to the ground and attached the bar to one of them and the actuator to the other. The bar spans the hypotenuse of the design space (158.11 cm long). The actuator is attached pinned to the ground at x = 40 cm away. The weight that can be lifted is W kN. With this design we can lift the weight (attached at the free end of the bar).
 
 
-![Linear Actuator Mechanism](../IMG_5263.jpeg)
+![Linear Actuator Mechanism](IMG_5263.jpeg)
 
 
