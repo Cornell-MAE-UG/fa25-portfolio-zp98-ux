@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Zoe Petropoulos
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Zoe Petropoulos
+description              : Zoe Petropoulos - Projects and CV 
+baseurl                  : "fa25-portfolio-zp98-ux" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
