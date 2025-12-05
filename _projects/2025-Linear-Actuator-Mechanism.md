@@ -2,8 +2,9 @@
 layout: project
 title: Linear Actuator Mechanism
 description: ENGRD 2020 assignment
-technologies:
-image:
+technologies: paper and pencil
+image: ![Linear Actuator Mechanism](IMG_5263.jpeg)
+
 ---
 
 
