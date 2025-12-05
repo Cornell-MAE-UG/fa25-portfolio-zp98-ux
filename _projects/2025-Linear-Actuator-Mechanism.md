@@ -11,7 +11,7 @@ image: ![Linear Actuator Mechanism](IMG_5263.jpeg)
 As part of a class assignment, I was asked to design a mechanism that lifts the maximum possible weight to the maximum possible height, keeping in mind certain parameters. This optimization problem applied what I've learned about frames and mechanisms.
 
 
-I was given a design space 150 cm long by 50 cm tall, a rigid bar of any length, 3 pin supports (2 needed to be mounted to the ground), and a linear actuator chosen from a catalog.
+We were given a design space 150 cm long by 50 cm tall, a rigid bar of any length, 3 pin supports (2 needed to be mounted to the ground), and a linear actuator chosen from a catalog.
 
 
 This is how I solved the problem:
