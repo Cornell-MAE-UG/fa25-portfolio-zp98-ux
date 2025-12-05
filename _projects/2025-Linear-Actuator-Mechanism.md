@@ -17,7 +17,7 @@ We were given a design space 150 cm long by 50 cm tall, a rigid bar of any lengt
 This is how I solved the problem:
 
 
-I picked the RSX high force rod-style actuator (max force of 294 kN and strok length of up to 1.5 m). I placed two of the pins mounted to the ground and attached the bar to one of them and the actuator to the other. The bar spans the hypotenuse of the design space (158.11 cm long). The actuator is attached pinned to the ground at x = 40 cm away. The weight that can be lifted is W kN. With this design we can lift the weight (attached at the free end of the bar).
+I picked the RSX high force rod-style actuator (max force of 294 kN and stroke length of up to 1.5 m). I placed two of the pins mounted to the ground and attached the bar to one of them and the actuator to the other. The bar spans the hypotenuse of the design space (158.11 cm long). The actuator is attached pinned to the ground at x = 40 cm away. The weight that can be lifted is W kN. With this design we can lift the weight (attached at the free end of the bar).
 
 
 ![Linear Actuator Mechanism](IMG_5263.jpeg)
