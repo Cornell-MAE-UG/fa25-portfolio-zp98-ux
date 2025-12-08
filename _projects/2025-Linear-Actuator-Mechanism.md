@@ -2,7 +2,7 @@
 layout: project
 title: Linear Actuator Mechanism
 description: ENGRD 2020 assignment
-technologies: paper and pencil
+technologies: paper and pencil, calculator
 image:
 
 ---
@@ -40,4 +40,4 @@ Maximum deflection in my beam: Assume my beam is rigid, only transverse componen
 
 δ_max = (sqrt(3) * W * (DC) * (AD)^2)/27 * E * I
 
-I will also assume that my beam is made out of steel with a circular cross section, diameter 40 mm. Now I know E = 200 GPa and I = (pi*d^4)/64. Plugging this into the equation above, I get δ_max =
+DC is 15.8 cm and AD is 142.3 cm. In addition to the assumptions above, I will also assume that my beam is made out of steel with a circular cross section, diameter 40 mm. Now I know E = 200 GPa and I = (pi*d^4)/64. Plugging this into the equation above, I get δ_max = 22.7 m.
