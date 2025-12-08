@@ -23,7 +23,7 @@ Set-up: I picked the RSX high force rod-style actuator, because it had the large
 ![Screenshot 1](/assets/images/Screenshot%202025-12-08%20at%2016.30.58.png)
 
 
-My design degrees of freedom: two degrees of freedom, the linear actuator extension, placement of the linear actuator along the x-axis.
+My design degrees of freedom: two degrees of freedom, the linear actuator extension and placement of the linear actuator along the x-axis.
 
 Assumptions: Bar is rigid, weight attached is a point mass
 
