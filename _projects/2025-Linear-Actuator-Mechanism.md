@@ -44,7 +44,7 @@ Maximum deflection in my beam: Assume my beam is rigid, only transverse componen
 
 DC is 15.8 cm and AD is 142.3 cm. In addition to the assumptions above, I will also assume that my beam is made out of steel with a circular cross section, diameter 40 mm. Now I know E = 200 GPa and I = (pi*d^4)/64. Plugging this into the equation above, I get δ_max = 22.8 cm, which is quite large.
 
-Designing a cross-section such that δ_max is < 2% of 158.1 cm aka 3.162 cm, while minimizing cross-section area: I'll choose a Wide-Flange Shape. Assuming I keept the same material and setting δ_max to 0.03162 m, I get that I must be at least 9*10^5 mm^4. (about 7 times larger than before). In the end, a W shape is a bit overkill for meeting this requirement, so I chose the  S 75 x 8.5 shape which has an Ix of 1.04*10^6 mm^4.
+Designing a cross-section such that δ_max is < 2% of 158.1 cm aka 3.162 cm, while minimizing cross-section area: I'll choose a Wide-Flange Shape. Assuming I kept the same material and setting δ_max to 0.03162 m, I get that I must be at least 9*10^5 mm^4. (about 7 times larger than before). In the end, a W shape is a bit overkill for meeting this requirement, so I chose the  S 75 x 8.5 shape which has an Ix of 1.04*10^6 mm^4.
 
 ![Screenshot 3](/assets/images/Screenshot%202025-12-08%20at%2016.31.44.png)
 
