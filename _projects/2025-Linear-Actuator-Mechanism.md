@@ -28,7 +28,7 @@ Assumptions: Bar is rigid, weight attached is a point mass
 
 Calculations: To be able to apply the greatest moment, the linear actuator should start perpendicular to the bar. As the linear actuator extends, it will apply a smaller moment on the bar, and so will the weight, until the linear actuator fully extends. See image: 
 
-![Screenshot 2]({{"/assets/images/Screenshot%202025-12-08%20at%2016.31.27.png"|relative_url}})
+![Screenshot 2]({{"/assets/images/Screenshot%202025-12-08%20at%2016.31.27.png"|relative_url}}){: .inline-image-r style="width: 200px"}
 
 
 
