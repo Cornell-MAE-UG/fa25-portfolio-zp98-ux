@@ -9,35 +9,45 @@
 
 **Concept A: SLF Vacuum**
 
-_Description:_ A vacuum attached to the harvester removes SLFs from harvested grapes. 
+_Description:_ A vacuum attached to the harvester removes SLFs from harvested grapes.
+
 _How it would be used:_
   - Attach to the collector system before the reservoir. 
   - SLFs are sucked up, juice filtered back, and SLFs deposited into a separate bin/out of harvester
+
 _Why it’s better than the status quo:_
   - Remove the SLFs from the harvested grapes, so no SLFs in the final grape collection. 
   - Automatic sorting between SLFs and grapes, no need for manual differentiation
+
 _End-of-semester proof-of-concept:_
   - Tested vacuum that picks up SLFs and avoids grapes.
+
 _Key Risks:_
   - Finding precise vacuum pressure to only pick up SLFs.
   - Smaller grapes and juice are at risk of being picked up.
+
 _Plans to Test:_ Make varying weight-accurate models of grape/SLFs to test vacuum. 
 
 **Concepts B: SLF Remover via Compressed Air Gun**
 
 _Description:_ An attachment to the front of the harvester that identifies SLF’s and deploys compressed air for SLF removal during harvest before the grape vines are shaken.
+
 _How it would be used:_ 
   - Attach mechanism to front of harvester
   - Approach grape vine, be alerted if concentration of SLF is high enough → stop & deploy compressed air until SLF concentration has decreased → continue on
+
 _Why it’s better than the status quo:_
   - Remove SLFs before grapes are harvested, but doesn’t require an extra process to do so (part of harvesting process)
   - Air is relatively cheap and reusable (compared to water)
+
 _End-of-semester proof-of-concept:_
   - Mechanism to shoot the compressed air on demand that releases the SLFs from the crop
   - Method of mounting to harvester.
+
 _Key Risks:_
   - Compressed air may also remove grapes upon contact with the grape vine. 
   - Potentially increase the time necessary to harvest: test speed of detector and compressed air. 
+
 _Plans to Test:_ Deploy compressed air mechanism 30 times to ensure reliability over time.
 
 **Questions for the client**
