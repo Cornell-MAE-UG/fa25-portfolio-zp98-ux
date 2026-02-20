@@ -54,29 +54,3 @@ _Plans to Test:_ Deploy compressed air mechanism 30 times to ensure reliability 
 1. Is there any quantitative information on how strong the SLFs can grip onto the crop? This will affect how strong the vacuum and air gun needs to be.
 2. Can the most commonly used harvester models be provided to us? This allows us to design mechanisms that will integrate seamlessly with the existing equipment.
 3. Can the SLFs continue to grip onto the crop after death; if so, how long? If the SLFs stop gripping shortly after death, this would be another way to ensure their removal (potential via pesticides.)
-
-import base64
-from github import Github
-
-# Initialize GitHub client
-g = Github("your_github_token")
-repo = g.get_repo("Cornell-MAE-UG/fa25-portfolio-zp98-ux")
-
-# Read your updated file
-with open("_projects/Client Outline and Pitch.md", "r") as f:
-    file_content = f.read()
-
-# Get the current file to obtain its SHA
-file_path = "_projects/Client Outline and Pitch.md"
-current_file = repo.get_contents(file_path, ref="main")
-
-# Update the file
-repo.update_file(
-    path=file_path,
-    message="Update Client Outline and Pitch documentation",
-    content=file_content,
-    sha=current_file.sha,
-    branch="main"
-)
-
-print("File committed successfully!")
