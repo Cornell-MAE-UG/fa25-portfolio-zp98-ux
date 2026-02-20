@@ -8,7 +8,8 @@
 **Impact:** We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
 
 **Concept A: SLF Vacuum**
-_Description: _A vacuum attached to the harvester removes SLFs from harvested grapes. 
+
+_Description:_ A vacuum attached to the harvester removes SLFs from harvested grapes. 
 _How it would be used:_
   - Attach to the collector system before the reservoir. 
   - SLFs are sucked up, juice filtered back, and SLFs deposited into a separate bin/out of harvester
@@ -23,6 +24,7 @@ _Key Risks:_
 _Plans to Test:_ Make varying weight-accurate models of grape/SLFs to test vacuum. 
 
 **Concepts B: SLF Remover via Compressed Air Gun**
+
 _Description:_ An attachment to the front of the harvester that identifies SLF’s and deploys compressed air for SLF removal during harvest before the grape vines are shaken.
 _How it would be used:_ 
   - Attach mechanism to front of harvester
