@@ -1,5 +1,5 @@
 
-**Team:** ZAM 
+**Team:** ZAM
 
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape
 
