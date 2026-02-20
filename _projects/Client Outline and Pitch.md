@@ -54,3 +54,7 @@ _Plans to Test:_ Deploy compressed air mechanism 30 times to ensure reliability 
 1. Is there any quantitative information on how strong the SLFs can grip onto the crop? This will affect how strong the vacuum and air gun needs to be.
 2. Can the most commonly used harvester models be provided to us? This allows us to design mechanisms that will integrate seamlessly with the existing equipment.
 3. Can the SLFs continue to grip onto the crop after death; if so, how long? If the SLFs stop gripping shortly after death, this would be another way to ensure their removal (potential via pesticides.)
+
+git add .
+git commit -m "<Commit Edit>"
+git push origin main
