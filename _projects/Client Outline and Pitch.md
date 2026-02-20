@@ -15,58 +15,44 @@ image:
 
 ---
 
-**Team:** ZAM
 
-**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape
 
-**Problem Statement:** From August to November, SLFs mature into their adult form and migrate onto grape crops and up to 400 can perch on a single vine. As the grapes are mechanically harvested, SLFs that cling to the crops also enter the harvesters. There is currently no mechanism to stop SLFs from entering. Even one or two SLFs can contaminate a batch, making the product of those grapes unsellable, wasting resources and increasing the cost of producing viable batches. 
+As part of a class assignment, I was asked to design a mechanism that lifts the maximum possible weight to the maximum possible height, keeping in mind certain parameters. This optimization problem applied what I've learned about frames and mechanisms.
 
-**Impact:** We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
 
-**Concept A: SLF Vacuum**
+We were given a design space 150 cm long by 50 cm tall, a rigid bar of any length, 3 pin supports (2 needed to be mounted to the ground), and a linear actuator chosen from a catalog.
 
-_Description:_ A vacuum attached to the harvester removes SLFs from harvested grapes.
 
-_How it would be used:_
-  - Attach to the collector system before the reservoir. 
-  - SLFs are sucked up, juice filtered back, and SLFs deposited into a separate bin/out of harvester
+This is how I solved the problem:
 
-_Why it’s better than the status quo:_
-  - Remove the SLFs from the harvested grapes, so no SLFs in the final grape collection. 
-  - Automatic sorting between SLFs and grapes, no need for manual differentiation
+Step 1 (edited):
 
-_End-of-semester proof-of-concept:_
-  - Tested vacuum that picks up SLFs and avoids grapes.
+Set-up: I picked the RSX high force rod-style actuator, because it had the largest max force and stroke length of those available (up to 294 kN and a stroke length of up to 150 cm). I will place two of the pins mounted to the ground and attach the bar to one of them and the actuator to the other. The bar spans the hypotenuse of the design space (158.11 cm long). The actuator will be pinned to the ground at some relatively large distance x = close to 150 cm away so that its moment arm is increased and it can lift a larger weight, although some height will be sacrificed.
 
-_Key Risks:_
-  - Finding precise vacuum pressure to only pick up SLFs.
-  - Smaller grapes and juice are at risk of being picked up.
+![Screenshot 1]({{"/assets/images/Screenshot%202025-12-08%20at%2016.30.58.png"|relative_url}}){: .inline-image-r style="width: 300px"}
 
-_Plans to Test:_ Make varying weight-accurate models of grape/SLFs to test vacuum. 
+My design degrees of freedom: two degrees of freedom, the linear actuator extension and placement of the linear actuator along the x-axis.
 
-**Concepts B: SLF Remover via Compressed Air Gun**
+Assumptions: Bar is rigid, weight attached is a point mass
 
-_Description:_ An attachment to the front of the harvester that identifies SLF’s and deploys compressed air for SLF removal during harvest before the grape vines are shaken.
+Calculations: To be able to apply the greatest moment, the linear actuator should start perpendicular to the bar. As the linear actuator extends, it will apply a smaller moment on the bar, and so will the weight, until the linear actuator fully extends. See image: 
 
-_How it would be used:_ 
-  - Attach mechanism to front of harvester
-  - Approach grape vine, be alerted if concentration of SLF is high enough → stop & deploy compressed air until SLF concentration has decreased → continue on
+![Screenshot 2]({{"/assets/images/Screenshot%202025-12-08%20at%2016.31.27.png"|relative_url}}){: .inline-image-r style="width: 1500px"}
 
-_Why it’s better than the status quo:_
-  - Remove SLFs before grapes are harvested, but doesn’t require an extra process to do so (part of harvesting process)
-  - Air is relatively cheap and reusable (compared to water)
 
-_End-of-semester proof-of-concept:_
-  - Mechanism to shoot the compressed air on demand that releases the SLFs from the crop
-  - Method of mounting to harvester.
 
-_Key Risks:_
-  - Compressed air may also remove grapes upon contact with the grape vine. 
-  - Potentially increase the time necessary to harvest: test speed of detector and compressed air. 
+Conclusions: I chose to use somewhere between Case 1 and Case 2 in my design to strike a balance between maximum height reached and maximum weight lifted. 
 
-_Plans to Test:_ Deploy compressed air mechanism 30 times to ensure reliability over time.
 
-**Questions for the client**
-1. Is there any quantitative information on how strong the SLFs can grip onto the crop? This will affect how strong the vacuum and air gun needs to be.
-2. Can the most commonly used harvester models be provided to us? This allows us to design mechanisms that will integrate seamlessly with the existing equipment.
-3. Can the SLFs continue to grip onto the crop after death; if so, how long? If the SLFs stop gripping shortly after death, this would be another way to ensure their removal (potential via pesticides.)
+Step 2:
+
+Maximum deflection in my beam: Assume my beam is rigid, only transverse components to the beam are important (following the prompt's instructions), and beam is simply supported by pin A and the linear actuator. Because of these assumptions, I can say this beam is an overhanging beam with a point load at the end. This loading is described by the equation
+
+δ_max = (sqrt(3) * W * (DC) * (AD)^2)/(27 * E * I)
+
+DC is 15.8 cm and AD is 142.3 cm. In addition to the assumptions above, I will also assume that my beam is made out of steel with a circular cross section, diameter 40 mm. Now I know E = 200 GPa and I = (pi*d^4)/64. Plugging this into the equation above, I get δ_max = 22.8 cm, which is quite large.
+
+Designing a cross-section such that δ_max is < 2% of 158.1 cm aka 3.162 cm, while minimizing cross-section area: I'll choose a Wide-Flange Shape. Assuming I kept the same material and setting δ_max to 0.03162 m, I get that I must be at least 9*10^5 mm^4. (about 7 times larger than before). In the end, a W shape is a bit overkill for meeting this requirement, so I chose the  S 75 x 8.5 shape which has an Ix of 1.04*10^6 mm^4.
+
+![Screenshot 3]({{"/assets/images/Screenshot%202025-12-08%20at%2016.31.44.png"|relative_url}}){: style="width: 300px"}
+
