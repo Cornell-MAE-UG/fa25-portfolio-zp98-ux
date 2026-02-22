@@ -8,7 +8,7 @@ technologies: google docs
 
 
 
-image: assets/images/spaceship-design.jpg
+image: assets/images/No slfs.png
 
 ---
 
