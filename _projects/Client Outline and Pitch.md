@@ -8,7 +8,7 @@ technologies: google docs
 
 
 
-image: /assets/images/"No slfs.png"
+image: /assets/images/no_slfs.png
 
 ---
 
