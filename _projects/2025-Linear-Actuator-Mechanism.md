@@ -1,16 +1,3 @@
----
-layout: project
-title: Linear Actuator Mechanism
-description: ENGRD 2020 assignment
-technologies: paper and pencil, calculator 
-
-
-
-
-
-image:
-
----
 
 
 **Team:** ZAM
