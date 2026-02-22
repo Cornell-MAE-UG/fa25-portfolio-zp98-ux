@@ -1,3 +1,16 @@
+---
+layout: project
+title: Client Outline and Pitch
+description: MAE 2250 assignment
+technologies: google docs 
+
+
+
+
+
+image:
+
+---
 
 
 **Team:** ZAM
