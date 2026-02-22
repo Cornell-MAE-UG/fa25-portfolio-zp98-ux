@@ -8,7 +8,7 @@ technologies: paper and pencil, calculator
 
 
 
-image:
+image: '/Screenshot 2025-12-08 at 16.31.44.png'
 
 ---
 
