@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: odp
 title: Removal of Spotted Lanternflies during Harvesting
 description: MAE 2250 assignment
 technologies: google docs 
