@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ODP
+title: Spotted Lanternfly Open Design Project
 description: MAE 2250 assignment
 technologies: google docs 
 
@@ -13,32 +13,36 @@ image: /assets/images/no_slfs.png
 ---
 
 
-<!DOCTYPE html>
 <html>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 20px;
+    }
+    summary {
+      font-size: 18px;
+      cursor: pointer;
+      margin: 10px 0;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ccc;
+      overflow-x: auto;
+    }
+  </style>
 <head>
   <title>Spotted Lanternfly ODP Files</title>
 </head>
 <body>
 
-<h2>My Files</h2>
+<h2>Table of Contents</h2>
 
 <details>
   <summary>Client Outline and Proposal</summary>
   <pre>
----
-layout: project
-title: Removal of Spotted Lanternflies during Harvesting
-description: MAE 2250 assignment
-technologies: google docs 
 
-
-
-
-
-image: /assets/images/no_slfs.png
-
----
-
+<h2>Removal of Spotted Lanternflies during Harvesting</h2>
 
 **Team:** ZAM
 
@@ -55,20 +59,8 @@ image: /assets/images/no_slfs.png
 <details>
   <summary>Functional Prototype</summary>
   <pre>
----
-layout: project
-title: Concentrated Air Functional Prototype for Spotted Lanternfly Removal
-description: MAE 2250 assignment
-technologies: google docs 
-
-
-
-
-
-image: /assets/images/initial_prototype.png
-
----
-
+    
+<h2>Concentrated Air Functional Prototype for Spotted Lanternfly Removal</h2>
 
 **Team:** ZAM
 
