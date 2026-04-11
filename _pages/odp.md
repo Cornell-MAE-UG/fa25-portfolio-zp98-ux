@@ -6,7 +6,7 @@ permalink: /odp/
 
 <div class="gallery-container">
 <div class="odp-gallery">
-    {% for project in site.odp %}
+    {% for odp in site.odp %}
       <div class="gallery-item">
         <a href="{{ odp.url | relative_url }}">
           <img src="{{ odp.image | relative_url }}" alt="{{ odp.title }}" />
