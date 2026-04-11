@@ -17,8 +17,15 @@ image: /assets/images/initial_prototype.png
 
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape 
 
-**Problem Statement:** From August to November, SLFs mature into their adult form and migrate onto grape crops and up to 400 can perch on a single vine. As the grapes are mechanically harvested, SLFs that cling to the crops also enter the harvesters. There is currently no mechanism to stop SLFs from entering. Even one or two SLFs can contaminate a batch, making the product of those grapes unsellable, wasting resources and increasing the cost of producing viable batches. 
+**Success criteria** 
+Our mechanism should release a concentrated stream of air that has the ability to blow off SLFs.
 
-**Impact:** We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
+1. [HIGH PRIORITY] Our mechanism should be able to actuate the trigger on the compressed air canister; based on our testing, this corresponds to 25-45 N of force on the trigger.
+
+2. [HIGH PRIORITY; DEMO] We want our mechanism to blow SLFs off of the grapes – our prototype should successfully blow off 3D printed “SLFs” weighing around 1 gram at distances of up to 0.5 m. (SLFs weigh an average of 0.3 grams, but have grip strength so we included a factor of safety of three.)
+
+3. [MID PRIORITY] We want our mechanism to be actuated quickly; i.e. the duration between when the user first interacts with our mechanism (i.e. touching the crank) to when the SLF is blown off should be short (tentatively aiming for 10 seconds.)
+
+
 
 <iframe src="[https://docs.google.com/document/d/e/2PACX-1vRhUdqWu9RVjenRHZIrhPu8TpY6T2tYA-HOwbH7CR6nJ0UXd8kRjf_16qlmTsXqfFgEmePHeffpiS8o](https://docs.google.com/document/d/1qOl32gtMFjhZaarlz0hSaXLuSYFBksxR4d_7aPLt9W8/pub?embedded=true" width="100%" height="600px"></iframe>
