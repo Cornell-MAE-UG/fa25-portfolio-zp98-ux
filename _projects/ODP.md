@@ -62,7 +62,7 @@ Impact: We plan to tackle the SLFs during the harvest, which gives us the most c
   <summary>Functional Prototype</summary>
   <pre>
     
-<h2>Concentrated Air Functional Prototype for Spotted Lanternfly Removal</h2>
+<h2>Concentrated Air: A Functional Prototype for Spotted Lanternfly Removal</h2>
 
 Success criteria of prototype: 
 Our mechanism should release a concentrated stream of air that has the ability to blow off SLFs.
@@ -73,8 +73,7 @@ Our mechanism should release a concentrated stream of air that has the ability t
 
 3. [MID PRIORITY] We want our mechanism to be actuated quickly; i.e. the duration between when the user first interacts with our mechanism (i.e. touching the crank) to when the SLF is blown off should be short (tentatively aiming for 10 seconds.)
 
-![prototype image]({{"/assets/images/initial_prototype.png"|relative_url}}){: style="width: 300px"}
-
+<img src="assets/images/initial_prototype.png" style="width: 300px;">
 
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vT19qdwrjmuTLoyiTAAAvwHAsuaK8qdOj-R-2O6o5l8RsoFldej_hTQvAAosXqOX-ShOj4po_UWPCth/pub?embedded=true" width="100%" height="600px"></iframe>
 
