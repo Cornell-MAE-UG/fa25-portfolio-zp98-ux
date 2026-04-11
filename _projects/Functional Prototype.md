@@ -8,7 +8,7 @@ technologies: google docs
 
 
 
-image: /assets/images/no_slfs.png
+image: /assets/images/initial_prototype.png
 
 ---
 
@@ -21,4 +21,4 @@ image: /assets/images/no_slfs.png
 
 **Impact:** We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRhUdqWu9RVjenRHZIrhPu8TpY6T2tYA-HOwbH7CR6nJ0UXd8kRjf_16qlmTsXqfFgEmePHeffpiS8o/pub?embedded=true" width="100%" height="600px"></iframe>
+<iframe src="[https://docs.google.com/document/d/e/2PACX-1vRhUdqWu9RVjenRHZIrhPu8TpY6T2tYA-HOwbH7CR6nJ0UXd8kRjf_16qlmTsXqfFgEmePHeffpiS8o](https://docs.google.com/document/d/1qOl32gtMFjhZaarlz0hSaXLuSYFBksxR4d_7aPLt9W8/pub?embedded=true" width="100%" height="600px"></iframe>
