@@ -17,7 +17,7 @@ image: /assets/images/initial_prototype.png
 
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape 
 
-**Success criteria** 
+**Success criteria of prototype:** 
 Our mechanism should release a concentrated stream of air that has the ability to blow off SLFs.
 
 1. [HIGH PRIORITY] Our mechanism should be able to actuate the trigger on the compressed air canister; based on our testing, this corresponds to 25-45 N of force on the trigger.
