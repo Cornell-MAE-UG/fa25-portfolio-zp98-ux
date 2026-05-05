@@ -38,6 +38,10 @@ image: /assets/images/no_slfs.png
 </head>
 <body>
 
+Team: ZAM
+
+Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape
+
 Problem Statement: From August to November, SLFs mature into their adult form and migrate onto grape crops and up to 400 can perch on a single vine. As the grapes are mechanically harvested, SLFs that cling to the crops also enter the harvesters. There is currently no mechanism to stop SLFs from entering. Even one or two SLFs can contaminate a batch, making the product of those grapes unsellable, wasting resources and increasing the cost of producing viable batches. 
 
 
@@ -47,11 +51,7 @@ Problem Statement: From August to November, SLFs mature into their adult form an
   <summary>Client Outline and Proposal</summary>
   <pre>
 
-<h2>Removal of Spotted Lanternflies during Harvesting</h2>
-
-Team: ZAM
-
-Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape 
+<h2>Removal of Spotted Lanternflies during Harvesting</h2> 
 
 Our strategy: We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
 
