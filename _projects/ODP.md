@@ -38,23 +38,15 @@ image: /assets/images/no_slfs.png
 </head>
 <body>
 
-Team: ZAM
-
-Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape
-
-
-Problem Statement: From August to November, SLFs mature into their adult form and migrate onto grape crops and up to 400 can perch on a single vine. As the grapes are mechanically harvested, SLFs that cling to the crops also enter the harvesters. There is currently no mechanism to stop SLFs from entering. Even one or two SLFs can contaminate a batch, making the product of those grapes unsellable, wasting resources and increasing the cost of producing viable batches. 
+Team: ZAM   
+Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape   
+Problem Statement: From August to November, SLFs mature into their adult form and migrate onto grape crops and up to 400 can perch on a single vine. As the grapes are mechanically harvested, SLFs that cling to the crops also enter the harvesters. There is currently no mechanism to stop SLFs from entering. Even one or two SLFs can contaminate a batch, making the product of those grapes unsellable, wasting resources and increasing the cost of producing viable batches.
 
 
 <h2>Table of Contents</h2>
 
 <details>
-  <summary>Client Outline and Proposal</summary>
-  <pre>
-
-<h2>Removal of Spotted Lanternflies during Harvesting</h2> 
-
-<style>
+  <style>
     body {
       font-family: Arial;
       margin: 20px;
@@ -73,6 +65,10 @@ Problem Statement: From August to November, SLFs mature into their adult form an
       word-wrap: break-word;
     }
   </style>
+  <summary>Client Outline and Proposal</summary>
+  <pre>
+
+<h2>Removal of Spotted Lanternflies during Harvesting</h2> 
 
 Our strategy: We plan to tackle the SLFs during the harvest, which gives us the most control over the SLFs in grape harvest. The solution would have the least interference and add the least additional work during the grape harvesting process since it can be attached to the harvester. 
 
@@ -84,7 +80,7 @@ Our strategy: We plan to tackle the SLFs during the harvest, which gives us the 
   <summary>Functional Prototype</summary>
   <pre>
     
-<h2>Concentrated Air: A Functional Prototype for Spotted Lanternfly Removal</h2>
+<h2>Concentrated Air - A Functional Prototype for Spotted Lanternfly Removal</h2>
 
 Success criteria of prototype: 
 Our mechanism should release a concentrated stream of air that has the ability to blow off SLFs.
